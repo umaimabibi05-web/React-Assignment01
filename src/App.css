@@ -94,7 +94,7 @@ body {
 /* hero */
 .hero {
   padding: 9rem 0 3rem;
-  background: radial-gradient(circle at 80% 20%, #ffd6cf 0, #fff4f1 45%, #fff 100%);
+  background: radial-gradient(circle at 80% 20%, #ffd6cf 0, #fff4f1 50%, #fff 100%);
 }
 
 .badge-soft {

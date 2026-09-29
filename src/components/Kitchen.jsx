@@ -91,7 +91,7 @@ function Navbar() {
             ))}
           </ul>
           <div className="d-flex gap-2">
-            <button className="btn btn-outline-dark rounded-pill px-4" style={{border: 0 }}>Sign In</button>
+            <button className="btn btn-outline-dark rounded-pill px-4">Sign In</button>
             <button className="btn btn-brand rounded-pill px-4">Sign Up</button>
           </div>
         </div>
@@ -104,7 +104,7 @@ function Hero() {
   return (
     <header id="home" className="hero">
       <div className="container">
-        <div className="row align-items-center g-5">
+        <div className="row align-items-center gy-5 gx-lg-5">
           <div className="col-lg-6 text-center text-lg-start">
             <span className="badge-soft"><i className="fa-solid fa-fire me-1" /> #1 Online Cooking School</span>
             <h1 className="hero-title mt-3">Cook Delicious Food <span className="underline">Like a Pro</span></h1>
@@ -177,7 +177,7 @@ function Features() {
   return (
     <section id="features" className="py-6 bg-warm">
       <div className="container">
-        <div className="row align-items-center g-5">
+        <div className="row align-items-center gy-5 gx-lg-5">
           <div className="col-lg-5 reveal">
             <div className="feat-img-wrap">
                <video src="/images/cooking.mp4" className="feat-img" controls poster={IMG.feature} />
